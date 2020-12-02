@@ -4,7 +4,7 @@ using System;
 
 namespace DAV_Tarea4.Pieces
 {
-    class Pawn : IPieceProxy
+    public class Pawn : IPieceProxy
     {
         public void ProcessMovement(Movement movement, Piece[,] board)
         {

@@ -4,7 +4,7 @@ using System;
 
 namespace DAV_Tarea4.Proxy
 {
-    class PieceProxy : IPieceProxy
+    public class PieceProxy : IPieceProxy
     {
         private Pawn _pawn;
         private Rook _rook;

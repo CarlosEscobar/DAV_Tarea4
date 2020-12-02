@@ -4,9 +4,9 @@ using System.IO;
 
 namespace DAV_Tarea4.Parser
 {
-    static class MovementsParser
+    public static class MovementsParser
     {
-        private static Models.Type? getTypeFromCharacter(char character)
+        public static Models.Type? getTypeFromCharacter(char character)
         {
             switch(char.ToUpper(character))
             {
@@ -17,7 +17,7 @@ namespace DAV_Tarea4.Parser
             }
         }
 
-        private static int? getRowFromSecondCharacterInMovement(char character)
+        public static int? getRowFromSecondCharacterInMovement(char character)
         {
             switch(character)
             {
@@ -33,7 +33,7 @@ namespace DAV_Tarea4.Parser
             }
         }
 
-        private static int? getColumnFromFirstCharacterInMovement(char character)
+        public static int? getColumnFromFirstCharacterInMovement(char character)
         {
             switch (char.ToUpper(character))
             {
